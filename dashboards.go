@@ -20,6 +20,7 @@ type Dashboard struct {
 	Annotations   *Annotations  `json:"annotations,omitempty"`
 	Panels        []interface{} `json:"panels,omitempty"`
 	Time          *Time         `json:"time,omitempty"`
+	Templating    []interface{} `json:"templating,omitempty"`
 }
 
 type DashboardResult struct {
